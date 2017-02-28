@@ -1,10 +1,11 @@
-<!DOCTYPE html> 
+
 <html> 
 <head> 
     <title>selfreference</title> 
 </head> 
 <body> 
-<?php  if ($_SERVER['REQUEST_METHOD'] === 'GET') { 
+<?php 
+if ($_SERVER['REQUEST_METHOD'] === 'GET') { 
     echo "Show something";//execute if requested using HTTP GET Method 
 }
     elseif ($_SERVER['REQUEST_METHOD'] === 'POST') { 
