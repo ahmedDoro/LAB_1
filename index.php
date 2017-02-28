@@ -6,12 +6,12 @@
 </head> 
 <body> 
     <?php  if ($_SERVER['REQUEST_METHOD'] === 'GET') { 
-//execute if requested using HTTP GET Method 
+        echo "Show something";//execute if requested using HTTP GET Method 
     }
     elseif ($_SERVER['REQUEST_METHOD'] === 'POST') { 
-    // execute if requested using HTTP POST Method  } 
+     echo "Show something worked";
      else { 
-    // this is impossible  } 
+     echo "Show something please";
      ?> 
 </body> 
 </html>
